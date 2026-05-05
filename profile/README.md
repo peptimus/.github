@@ -65,7 +65,7 @@ flowchart LR
 | **Evolution Engine** | Mutate any existing sequence through AI-guided point mutations with full scoring |
 | **IP-NFT Minting** | Gasless compressed NFT minting on Solana mainnet — platform wallet covers all fees |
 | **Community Library** | Browse, filter, and compare all peptides minted across the protocol |
-| **Bounty Program** | Post SOL rewards for specific research targets; claim by minting qualifying discoveries |
+| **Bounty Program** | Post PTMS token rewards for specific research targets; claim by minting qualifying discoveries |
 | **Researcher Profiles** | On-chain identity tied to wallet address with full portfolio and contribution history |
 | **Peptide Comparison** | Side-by-side comparison of up to 4 peptides with visual score breakdowns |
 | **Research Feed** | Live-updated feed of all newly minted IP-NFTs across the protocol |
