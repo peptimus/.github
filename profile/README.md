@@ -29,7 +29,7 @@ Peptimus is an AI-powered platform for peptide sequence design, evolution, and o
 ```mermaid
 flowchart LR
     A([Researcher]) -->|Describe goal| B[AI Studio]
-    B -->|OpenAI GPT-4o-mini| C[Peptide Candidates]
+    B -->|AI Engine| C[Peptide Candidates]
     C -->|Select & Mint| D[IP-NFT on Solana]
     D -->|Publish| E[Community Feed]
 
@@ -47,7 +47,7 @@ flowchart LR
 | Repository | Description | Stack |
 |---|---|---|
 | [peptimus](https://github.com/peptimus/peptimus) | Main web application | React 18 · Vite · Tailwind · Three.js · Framer Motion |
-| [peptimus-api](https://github.com/peptimus/peptimus-api) | REST API + database layer | Express 5 · PostgreSQL · Drizzle ORM · OpenAI |
+| [peptimus-api](https://github.com/peptimus/peptimus-api) | REST API + database layer | Express 5 · PostgreSQL · Drizzle ORM |
 | [peptimus-shared](https://github.com/peptimus/peptimus-shared) | Shared TypeScript packages | OpenAPI Spec · Zod v4 · TanStack Query |
 | [peptimus-infra](https://github.com/peptimus/peptimus-infra) | Monorepo root & infrastructure | pnpm workspace · GitHub Actions · Node.js 24 |
 
@@ -59,7 +59,7 @@ flowchart LR
 |---|---|
 | **Frontend** | React 18, Vite, Tailwind CSS, Framer Motion, React Three Fiber, Wouter, Zustand |
 | **Blockchain** | Solana Mainnet, Metaplex Bubblegum v5, Jupiter Unified Wallet, cNFT IP-NFT |
-| **Backend** | Express 5, PostgreSQL, Drizzle ORM, OpenAI GPT-4o-mini, Pino Logger |
+| **Backend** | Express 5, PostgreSQL, Drizzle ORM, Pino Logger |
 | **Shared** | TypeScript 5.9, OpenAPI Spec, Zod v4, TanStack Query |
 | **Infra** | pnpm workspace, Node.js 24, GitHub Actions CI |
 
@@ -80,7 +80,7 @@ flowchart LR
 
 | Action | Cost |
 |---|---|
-| AI Design (GPT-4o-mini ~1100 tokens) | ~$0.001 |
+| AI Design (~1100 tokens) | ~$0.001 |
 | DB Storage (1 row, ~500 bytes) | ~$0.0001 |
 | NFT Mint (Solana cNFT via Bubblegum) | ~$0.001 |
 | **Total end-to-end** | **~$0.002** |
