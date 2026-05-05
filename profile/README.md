@@ -67,12 +67,12 @@ flowchart LR
 
 ## Roadmap
 
-| Period | Milestone |
+| Phase | Milestone |
 |---|---|
-| Q2 2026 | AI Peptide Design Studio · IP-NFT Minting on Solana · Community Feed |
-| Q3 2026 | PTMS Token Launch · Bounty Program · Peptide Comparison Tool |
-| Q4 2026 | DAO Governance · Smart Contract Bounty Validation · Reputation System |
-| Q1 2027 | Partner Protocol Integrations · Cross-chain IP-NFT Bridging · Enterprise API |
+| Phase 1 | AI Peptide Design Studio · IP-NFT Minting on Solana · Community Feed |
+| Phase 2 | PTMS Token Launch · Bounty Program · Peptide Comparison Tool |
+| Phase 3 | DAO Governance · Smart Contract Bounty Validation · Reputation System |
+| Phase 4 | Partner Protocol Integrations · Cross-chain IP-NFT Bridging · Enterprise API |
 
 ---
 
