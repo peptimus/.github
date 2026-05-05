@@ -18,7 +18,7 @@
 
 ## Overview
 
-Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain intellectual property ownership. Researchers describe a therapeutic goal in plain language; the AI generates candidate sequences, scores them across four dimensions (binding affinity, stability, novelty, toxicity), then mints the best candidates as compressed NFTs on Solana at under $0.001 per mint.
+Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain intellectual property ownership. Researchers describe a therapeutic goal in plain language; the AI generates candidate sequences, scores them across four dimensions (binding affinity, stability, novelty, toxicity), then mints the best candidates as IP-NFTs on Solana, establishing immutable on-chain ownership records for each novel molecular discovery.
 
 The platform eliminates the traditional barrier between computational peptide research and verifiable IP ownership, making cutting-edge drug discovery tools accessible to any researcher with a Solana wallet.
 
