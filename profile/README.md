@@ -92,7 +92,6 @@ flowchart LR
 [![Website](https://img.shields.io/badge/peptimus.xyz-00f5ff?style=for-the-badge&logo=googlechrome&logoColor=0a0f1c)](https://peptimus.xyz)
 [![App](https://img.shields.io/badge/peptimus.xyz/app-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://peptimus.xyz/app)
 [![X](https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/peptimusdev)
-[![GitHub](https://img.shields.io/badge/GitHub_Org-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/peptimus)
 
 **Built by [peptimusdev](https://github.com/peptimusdev)**
 
