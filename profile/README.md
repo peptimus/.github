@@ -18,7 +18,7 @@
 
 ## Overview
 
-Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain intellectual property ownership. Researchers describe a therapeutic goal in plain language — the AI generates candidate sequences, scores them across four dimensions (binding affinity, stability, novelty, toxicity), then mints the best candidates as compressed NFTs on Solana at under $0.001 per mint.
+Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain intellectual property ownership. Researchers describe a therapeutic goal in plain language; the AI generates candidate sequences, scores them across four dimensions (binding affinity, stability, novelty, toxicity), then mints the best candidates as compressed NFTs on Solana at under $0.001 per mint.
 
 The platform eliminates the traditional barrier between computational peptide research and verifiable IP ownership, making cutting-edge drug discovery tools accessible to any researcher with a Solana wallet.
 
@@ -63,7 +63,7 @@ flowchart LR
 |---|---|
 | **AI Design Studio** | Describe a therapeutic goal in natural language and receive 6 scored peptide candidates instantly |
 | **Evolution Engine** | Mutate any existing sequence through AI-guided point mutations with full scoring |
-| **IP-NFT Minting** | Gasless compressed NFT minting on Solana mainnet — platform wallet covers all fees |
+| **IP-NFT Minting** | Gasless compressed NFT minting on Solana mainnet, platform wallet covers all fees |
 | **Community Library** | Browse, filter, and compare all peptides minted across the protocol |
 | **Bounty Program** | Post PTMS token rewards for specific research targets; claim by minting qualifying discoveries |
 | **Researcher Profiles** | On-chain identity tied to wallet address with full portfolio and contribution history |
@@ -77,7 +77,7 @@ flowchart LR
 | **Binding Affinity** | Predicted strength of peptide-target interaction | 80 – 100 |
 | **Stability** | Structural integrity under physiological conditions | 75 – 100 |
 | **Novelty** | Distance from known peptide sequences in literature | 70 – 100 |
-| **Toxicity** | Predicted cytotoxicity — lower is better | 0 – 15 |
+| **Toxicity** | Predicted cytotoxicity (lower is better) | 0 – 15 |
 | **Evolution Score** | Composite rank across all four metrics | 85 – 100 |
 
 ## Cost Per Peptide
