@@ -16,15 +16,13 @@
 
 </div>
 
----
+## Overview
 
-## What is Peptimus?
+Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain intellectual property ownership. Researchers describe a therapeutic goal in plain language — the AI generates candidate sequences, scores them across four dimensions (binding affinity, stability, novelty, toxicity), then mints the best candidates as compressed NFTs on Solana at under $0.001 per mint.
 
-Peptimus is an AI-powered platform for peptide sequence design, evolution, and on-chain IP ownership. Researchers describe a therapeutic goal in plain language — the AI generates candidate sequences, scores them for binding affinity, stability, novelty, and toxicity, then mints the best candidates as compressed NFTs on Solana at under $0.001 per mint.
+The platform eliminates the traditional barrier between computational peptide research and verifiable IP ownership, making cutting-edge drug discovery tools accessible to any researcher with a Solana wallet.
 
----
-
-## How it works
+## How It Works
 
 ```mermaid
 flowchart LR
@@ -40,18 +38,14 @@ flowchart LR
     style E fill:#1a2035,color:#fff,stroke:none
 ```
 
----
-
 ## Repositories
 
 | Repository | Description | Stack |
 |---|---|---|
 | [peptimus](https://github.com/peptimus/peptimus) | Main web application | React 18 · Vite · Tailwind · Three.js · Framer Motion |
-| [peptimus-api](https://github.com/peptimus/peptimus-api) | REST API + database layer | Express 5 · PostgreSQL · Drizzle ORM |
+| [peptimus-api](https://github.com/peptimus/peptimus-api) | REST API and database layer | Express 5 · PostgreSQL · Drizzle ORM |
 | [peptimus-shared](https://github.com/peptimus/peptimus-shared) | Shared TypeScript packages | OpenAPI Spec · Zod v4 · TanStack Query |
-| [peptimus-infra](https://github.com/peptimus/peptimus-infra) | Monorepo root & infrastructure | pnpm workspace · GitHub Actions · Node.js 24 |
-
----
+| [peptimus-infra](https://github.com/peptimus/peptimus-infra) | Monorepo root and infrastructure | pnpm workspace · GitHub Actions · Node.js 24 |
 
 ## Tech Stack
 
@@ -63,7 +57,37 @@ flowchart LR
 | **Shared** | TypeScript 5.9, OpenAPI Spec, Zod v4, TanStack Query |
 | **Infra** | pnpm workspace, Node.js 24, GitHub Actions CI |
 
----
+## Key Features
+
+| Feature | Description |
+|---|---|
+| **AI Design Studio** | Describe a therapeutic goal in natural language and receive 6 scored peptide candidates instantly |
+| **Evolution Engine** | Mutate any existing sequence through AI-guided point mutations with full scoring |
+| **IP-NFT Minting** | Gasless compressed NFT minting on Solana mainnet — platform wallet covers all fees |
+| **Community Library** | Browse, filter, and compare all peptides minted across the protocol |
+| **Bounty Program** | Post SOL rewards for specific research targets; claim by minting qualifying discoveries |
+| **Researcher Profiles** | On-chain identity tied to wallet address with full portfolio and contribution history |
+| **Peptide Comparison** | Side-by-side comparison of up to 4 peptides with visual score breakdowns |
+| **Research Feed** | Live-updated feed of all newly minted IP-NFTs across the protocol |
+
+## Scoring Dimensions
+
+| Metric | Description | Ideal Range |
+|---|---|---|
+| **Binding Affinity** | Predicted strength of peptide-target interaction | 80 – 100 |
+| **Stability** | Structural integrity under physiological conditions | 75 – 100 |
+| **Novelty** | Distance from known peptide sequences in literature | 70 – 100 |
+| **Toxicity** | Predicted cytotoxicity — lower is better | 0 – 15 |
+| **Evolution Score** | Composite rank across all four metrics | 85 – 100 |
+
+## Cost Per Peptide
+
+| Action | Cost |
+|---|---|
+| AI Design (~1100 tokens) | ~$0.001 |
+| DB Storage (1 row, ~500 bytes) | ~$0.0001 |
+| NFT Mint (Solana cNFT via Bubblegum) | ~$0.001 |
+| **Total end-to-end** | **~$0.002** |
 
 ## Roadmap
 
@@ -74,18 +98,9 @@ flowchart LR
 | Phase 3 | DAO Governance · Smart Contract Bounty Validation · Reputation System |
 | Phase 4 | Partner Protocol Integrations · Cross-chain IP-NFT Bridging · Enterprise API |
 
----
+## Contributing
 
-## Cost per Peptide
-
-| Action | Cost |
-|---|---|
-| AI Design (~1100 tokens) | ~$0.001 |
-| DB Storage (1 row, ~500 bytes) | ~$0.0001 |
-| NFT Mint (Solana cNFT via Bubblegum) | ~$0.001 |
-| **Total end-to-end** | **~$0.002** |
-
----
+All repositories follow the same contribution standards. Before opening a pull request, please read the `CONTRIBUTING.md` in the relevant repo. All submissions must pass CI and include a clear description of the change. Bug reports and feature requests can be filed via the issue templates available in each repository.
 
 <div align="center">
 
